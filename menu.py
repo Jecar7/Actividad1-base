@@ -8,7 +8,15 @@ eligio=input("-Selecciona algo :")
 
 # Según lo que ingresó, código diferente
 if eligio=="1":
-    print("Listamos otras herramientas")
+    num1 = int(input("dijite el numero 1:|" ))
+    num2 = int(input("dijite el numero 2:|" ))
+    num3 = int(input("dijite el numero 3:|" ))
+    if num1>num2 and num2>num3:
+        print(num1)
+        print(num2)
+        print(num3)
+    
+    
 elif eligio=="2":
     x = 3
     y = 5
