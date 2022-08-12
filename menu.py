@@ -7,7 +7,7 @@ print("""
 eligio=input("-Selecciona algo :")
 
 if eligio=="1":
-    try:
+    
      num1 = int(input("dijite el numero 1:|" ))
      num2 = int(input("dijite el numero 2:|" ))
      num3 = int(input("dijite el numero 3:|" ))
@@ -31,8 +31,7 @@ if eligio=="1":
         print(num2)
         print(num3)
         print(num1)   
-    except:
-      print("Escribir solo numeros enteros")
+    
 if eligio=="2":
     x = 3
     y = 5
@@ -41,5 +40,4 @@ if eligio=="3":
     print("Creo que hace frío")
 if eligio=="4":
     print("otra opción")
-else:
-    print("Opción no válida")
+    
