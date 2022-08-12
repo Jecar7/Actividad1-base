@@ -1,6 +1,6 @@
 print("""
-    1) Herramientas       3) Temperatura
-    2) Calculadora        4) Mas...
+    1) Punto 1      3) punto 3
+    2) Punto 2        4) Mas...
     """)
 
 # Leemos lo que ingresa el usuario
