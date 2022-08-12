@@ -1,5 +1,5 @@
 print("""
-    1) Herramientas       3) Temperatura
+    1) punto 1       3) Temperatura
     2) Calculadora        4) Mas...
     """)
 
@@ -8,7 +8,7 @@ eligio=input("-Selecciona algo :")
 
 # Según lo que ingresó, código diferente
 if eligio=="1":
-    print("suma")
+    print("Listamos otras herramientas")
 elif eligio=="2":
     x = 3
     y = 5
