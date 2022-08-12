@@ -8,7 +8,7 @@ eligio=input("-Selecciona algo :")
 
 # Según lo que ingresó, código diferente
 if eligio=="1":
-    print("suma")
+    print("Listamos otras herramientas")
 elif eligio=="2":
     x = 3
     y = 5
